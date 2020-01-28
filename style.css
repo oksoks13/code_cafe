@@ -1,0 +1,22 @@
+.about-us {
+    border: 1px solid red;
+    width: 1366px;
+    height: 487px;
+    margin: 0 auto;
+}
+.about-us-left {
+       width: 897px;
+       height: 487px;
+       
+}
+ .about-us-description {
+    width: 466px;
+    height: 139px;
+ }
+.about-us-img {
+        float: right;
+        text-align: center;
+}
+
+ 
+ 
