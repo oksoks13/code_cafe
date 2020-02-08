@@ -1,2 +1,1 @@
-# landing_page
-page
+# this is title
