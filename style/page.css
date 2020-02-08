@@ -97,18 +97,18 @@
      margin: 0 auto;
 }
 
-.header {
+.content {
       background:url(../image/bg.jpg);
       margin:0 auto;
       width: 1300px;
       height: 740px;
 }
-.header {
+.content {
      display: flex;
      justify-content: space-evenly;
      padding: 20px;      
 }
-.header-nav {
+.nav {
       display: flex;
       justify-content: space-between;
       flex-basis: 45%;
@@ -120,12 +120,12 @@
 a {
       color: #ffffff;
 }
-  .header-logo {
+  .logo {
     display: flex;
     flex-basis: 40%;
 }
 
-.header-title {
+.title {
       display: flex;
       align-self: center;
       position: absolute;
@@ -137,7 +137,7 @@ a {
       color: #ffffff;
       letter-spacing: 7px;
 }
-.header-content{
+.title-text{
       display: flex;
       align-self: center;
       position: absolute;
@@ -149,7 +149,7 @@ a {
       color: #ffffff;
       font-family: "Open Sans";
 }
-.header-button {
+.button {
       display: flex;
       align-self:flex-end;
       position: absolute;
