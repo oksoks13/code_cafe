@@ -7,6 +7,7 @@
       justify-content: space-between;
       width: 1300px;
       height: 740px;
+      max-width: 1300px;
 }
 .logo {
       padding-left: 30px;
@@ -19,13 +20,17 @@
       list-style: none;
       
 }
+
 .content-up .menu ul li {
       margin: 20px 40px;
 }   
 .content-up .menu ul a {
       text-decoration: none;
      color: white;
-}
+   }
+   a:hover {
+      background-color: red;
+    }
 .content-midle {
      text-align: center;
      margin: 0 auto;
