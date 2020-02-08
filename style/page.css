@@ -29,15 +29,30 @@
 .content-midle {
      text-align: center;
      margin: 0 auto;
+     }
+.title {
+      ont-family: 'Source Sans Pro', sans-serif;
+     text-transform: uppercase;
+     font-size: 35px;
+     line-height: 70px;
+     font-weight: 300;
+     color: #ffffff;
+     margin: -20px;
 }
-      
+   .text {     
+       line-height: 28px;
+      height: 45px;
+      color: #ffffff;
+      font-family: "Open Sans";
+}   
       .button {
-            padding: 10px;
-            margin: 0 auto;
-            background: #19bd9a;
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
+    padding: 10px;
+      margin: 0 auto;
+       background: #19bd9a;
+       width: 20px;
+       height: 20px;
+       border-radius: 50%;
+      }
 
 
 
