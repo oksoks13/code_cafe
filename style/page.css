@@ -1,3 +1,35 @@
+
+.content-up {
+      background:url(../image/bg.jpg);
+      margin:0 auto;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 1300px;
+      height: 740px;
+}
+.logo {
+      padding-left: 30px;
+}
+.content-up .menu ul{
+      display: flex;
+      font-family:'Open Sans', sans-serif;
+      font-size: 16px ;
+      padding-right: 30px;
+      list-style: none;
+      
+}
+.content-up .menu ul li {
+      margin: 20px 40px;
+}   
+.content-up .menu ul a {
+      text-decoration: none;
+     color: white;
+}
+.content-midle {
+     text-align: center;
+     margin: 0 auto;
+}
 .title-text {
      font-family: 'Source Sans Pro', sans-serif;
      text-transform:uppercase;
@@ -9,7 +41,6 @@
 .about-us {
       width: 1300px;
       margin-top: 30px;
-      
 }
 .about-us-title {
       width: 220px;
@@ -96,78 +127,6 @@
 .center-horizontal {
      margin: 0 auto;
 }
-
-.content {
-      background:url(../image/bg.jpg);
-      margin:0 auto;
-      width: 1300px;
-      height: 740px;
-}
-.content {
-     display: flex;
-     justify-content: space-evenly;
-     padding: 20px;      
-}
-.nav {
-      display: flex;
-      justify-content: space-between;
-      flex-basis: 45%;
-      width: 500px;
-      font-family:'Open Sans', sans-serif;
-      font-size: 16px ;
-      padding-top: 30px;
-}
-a {
-      color: #ffffff;
-}
-  .logo {
-    display: flex;
-    flex-basis: 40%;
-}
-
-.title {
-      display: flex;
-      align-self: center;
-      position: absolute;
-      font-family: 'Source Sans Pro', sans-serif;
-      text-transform: uppercase;
-      font-size: 35px;
-      line-height: 70px;
-      font-weight: 300;
-      color: #ffffff;
-      letter-spacing: 7px;
-}
-.title-text{
-      display: flex;
-      align-self: center;
-      position: absolute;
-      margin: 30px;
-      text-align: center;
-      width: 604px;
-      line-height: 28px;
-      height: 45px;
-      color: #ffffff;
-      font-family: "Open Sans";
-}
-.button {
-      display: flex;
-      align-self:flex-end;
-      position: absolute;
-      padding: 10px;
-      flex-basis: 10%;
-      background: #19bd9a;
-      width: 20px; 
-      height: 20px;
-      border-radius: 50%; 
-      
-}
-.icon-button {
-      text-align: center;
-      display: flex;
-      align-items: flex-end ;
-}
-
-
 
 
       
