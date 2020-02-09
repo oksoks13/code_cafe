@@ -2,17 +2,19 @@
 .content-up {
       background:url(../image/bg.jpg);
       margin:0 auto;
-      display:flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
       width: 1300px;
-      height: 740px;
-      max-width: 1300px;
+      height: 750px;
+      
+}
+.top-page {
+       display:flex;
+      
+      justify-content: space-between;
 }
 .logo {
       padding-left: 30px;
 }
-.content-up .menu ul{
+.top-page .menu ul{
       display: flex;
       font-family:'Open Sans', sans-serif;
       font-size: 16px ;
@@ -20,11 +22,10 @@
       list-style: none;
       
 }
-
-.content-up .menu ul li {
+.top-page .menu ul li {
       margin: 20px 40px;
 }   
-.content-up .menu ul a {
+.top-page .menu ul a {
       text-decoration: none;
      color: white;
    }
@@ -33,9 +34,10 @@
     }
 .content-midle {
      text-align: center;
-     margin: 0 auto;
+      margin: 0 auto;
+     padding: 211px;
      }
-.name {
+.content-text{
       font-family: 'Source Sans Pro', sans-serif;
      text-transform: uppercase;
      font-size: 35px;
@@ -44,21 +46,25 @@
      color: #ffffff;
      margin: -20px;
 }
-   .name-text {     
+   .content-article {     
        line-height: 28px;
-      height: 45px;
       color: #ffffff;
       font-family: "Open Sans";
 }   
-      .button {
-    padding: 10px;
-      margin: 0 auto;
+      .btn {
+       padding: 10px;
+       margin: 0 auto;
        background: #19bd9a;
        width: 20px;
        height: 20px;
        border-radius: 50%;
+       
       }
 
+      .icon-button {
+            text-align: center;
+
+      }
 .title-text {
      font-family: 'Source Sans Pro', sans-serif;
      text-transform:uppercase;
@@ -87,46 +93,44 @@
       margin-top: 30px;
       line-height: 25px;
 }
-
 .about-us-right{
     float: right;
       width: 370px;
 }
-
 .about-us-pic {
       margin: 0 auto;
       width: 150px;
 }
-
 .clear {
       clear: both;
 }
-
 .btn-read-me {
       border-radius: 13px;
       padding: 5px;
       margin-top: 20px;
 }  
-
 .hide {
       display:none;
 }
-
 .icon {
       background:grey;
-      width: 24px;
-      height: 24px;
-      border-radius: 18px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50px;
       display: inline-block;
-      padding: 5px;
+      padding: 10px;
       margin-left: 10px;
       color:white;
+      text-align: center;
 }
 
 .icons {
        margin-top:20px;
 }
-
+ 
+.icon {
+      text-align: center;
+}
 .icons :hover {
       background:#81868e ;    
 }
