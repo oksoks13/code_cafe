@@ -8,8 +8,7 @@
 }
 .top-page {
        display:flex;
-      
-      justify-content: space-between;
+       justify-content: space-between;
 }
 .logo {
       padding-left: 30px;
@@ -35,16 +34,20 @@
 .content-midle {
      text-align: center;
       margin: 0 auto;
-     padding: 211px;
+      padding-top: 290px;
+    padding-bottom: 105px;
+   
      }
-.content-text{
-      font-family: 'Source Sans Pro', sans-serif;
-     text-transform: uppercase;
-     font-size: 35px;
-     line-height: 70px;
-     font-weight: 300;
-     color: #ffffff;
-     margin: -20px;
+.content-title {
+      font-family:'Source Sans Pro', sans-serif;
+      text-transform:uppercase;
+      font-size: 1.15em;
+      line-height: 1.15;
+      color: #ffffff;
+    margin-bottom: 0px;
+    margin-top: 35px;
+
+
 }
    .content-article {     
        line-height: 28px;
@@ -58,9 +61,13 @@
        width: 20px;
        height: 20px;
        border-radius: 50%;
+      }
+       
+       .push{  
+           margin-top: 40px;
+      }
        
       }
-
       .icon-button {
             text-align: center;
 
