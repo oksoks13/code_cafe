@@ -1,10 +1,9 @@
 
 .content-up {
-      background:url(../image/bg.jpg);
-      margin:0 auto;
-      width: 1300px;
-      height: 750px;
-      
+       background:url(../image/bg.jpg);
+       margin:0 auto;
+       width: 1300px;
+       height: 750px;   
 }
 .top-page {
        display:flex;
@@ -28,59 +27,49 @@
       text-decoration: none;
      color: white;
    }
-   a:hover {
+/* a:hover {
       background-color: red;
-    }
+    } */
 .content-midle {
-     text-align: center;
-      margin: 0 auto;
-      padding-top: 290px;
-    padding-bottom: 105px;
-   
+       text-align: center;
+       margin: 0 auto;
+       padding-top: 290px;
+       padding-bottom: 105px;
      }
 .content-title {
-      font-family:'Source Sans Pro', sans-serif;
-      text-transform:uppercase;
-      font-size: 1.15em;
-      line-height: 1.15;
-      color: #ffffff;
-    margin-bottom: 0px;
-    margin-top: 35px;
-
-
+       font-family:'Source Sans Pro', sans-serif;
+        text-transform:uppercase;
+       font-size: 1.15em;
+       line-height: 1.15;
+       color: #ffffff;
+       margin-bottom: 0px;
+       margin-top: 35px;
 }
    .content-article {     
        line-height: 28px;
       color: #ffffff;
       font-family: "Open Sans";
 }   
-      .btn {
+.btn {
        padding: 10px;
        margin: 0 auto;
        background: #19bd9a;
        width: 20px;
        height: 20px;
        border-radius: 50%;
-      }
-       
-       .push{  
-           margin-top: 40px;
-      }
-       
-      }
-      .icon-button {
-            text-align: center;
-
+}
+.push {  
+       margin-top: 40px;
+}
+ .icon-button {
+      text-align: center;
       }
 .title-text {
      font-family: 'Source Sans Pro', sans-serif;
      text-transform:uppercase;
 }
-.boby {
-     font-family: 'Open Sans', sans-serif;
-     color: #1761d6;  
-}
 .about-us {
+      background-color: #f3f3f3;
       width: 1300px;
       margin-top: 30px;
 }
@@ -130,12 +119,10 @@
       color:white;
       text-align: center;
 }
-
 .icons {
        margin-top:20px;
 }
- 
-.icon {
+ .icon {
       text-align: center;
 }
 .icons :hover {
@@ -144,17 +131,16 @@
 .icons :hover {
       background: #19bd9a;    
 }
-
 .top {
     text-align: center;
 }
-
 .desk {    
-      width: 500px;
+        width: 500px;
  }
  .details {
-     
-      width: 1300px;
+           width: 1300px;
+           padding: 3px;
+           background-color: #f3f3f3;
  }
 .text-left {
      width: 300px;
@@ -166,8 +152,37 @@
 }
 
 .center-horizontal {
-     margin: 0 auto;
+           margin: 0 auto;
 }
+.footer { 
+       width: 1300px;
+       text-align: center;
+}
+.footer-title {
+       font-family: 'Source Sans Pro', sans-serif;
+       text-transform:uppercase;
+}     
+.footer-text {
+       font-family: "Open Sans", sans-serif; 
+       
+}
+.image {
+       display: flex;
+       align-items: flex-end;
+       width: 1300px;
+       padding: 10px;
+} 
+
+
+a { display: block; position: relative; }
+a:after { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.5);  opacity: 0; }
+
+a:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url(); opacity: 0; }
+
+a:hover:before,
+a:hover:after { opacity: 1; }
+
+
 
 
       
