@@ -33,6 +33,12 @@
   color: white;
 }
 
+a.menu-nav:hover {
+  border: solid 3px;
+  border-radius: 15px;
+  padding: 5px;
+}
+
 .logo {
   padding-left: 30px;
 }
@@ -62,14 +68,15 @@
 
 .push {
   margin-top: 40px;
+  margin-bottom: 15px;
 }
 
 .push .btn {
   padding: 10px;
   margin: 0 auto;
   background: #19bd9a;
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 }
 
@@ -126,8 +133,8 @@
 
 .icon {
   background: grey;
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
   display: inline-block;
   padding: 10px;
@@ -146,6 +153,10 @@
 
 .icons .icons :hover {
   background: #19bd9a;
+}
+
+.fa {
+  padding-top: 10px;
 }
 
 .top {

@@ -28,9 +28,15 @@
   margin: 20px 40px;
 }
 
-.top-page .menu ul a {
+.top-page .menu ul a  {
   text-decoration: none;
   color: white;
+}
+
+a.menu-nav:hover {
+  border: solid 3px;
+  border-radius: 15px;
+  padding: 5px;
 }
 
 .logo {
@@ -62,14 +68,15 @@
 
 .push {
   margin-top: 40px;
+  margin-bottom: 15px;
 }
 
 .push .btn {
   padding: 10px;
   margin: 0 auto;
   background: #19bd9a;
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 }
 
@@ -126,14 +133,15 @@
 
 .icon {
   background: grey;
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
   display: inline-block;
   padding: 10px;
   margin-left: 10px;
   color: white;
   text-align: center;
+ 
 }
 
 .icons {
@@ -147,7 +155,9 @@
 .icons .icons :hover {
   background: #19bd9a;
 }
-
+.fa {
+  padding-top:10px;
+}
 .top {
   text-align: center;
 }
