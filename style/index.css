@@ -10,8 +10,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .top-page .menu ul {
@@ -176,37 +176,38 @@
   margin: 0 auto;
 }
 
-.footer {
+.featured-progect {
   width: 1300px;
   text-align: center;
 }
 
-.footer .footer-title {
+.featured-progect-title {
   font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
 }
 
-.footer .footer-text {
+.featured-progect-text {
   font-family: "Open Sans", sans-serif;
 }
 
-image {
+.img-conteiner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  justify-self: space-beetwen;
   width: 1300px;
   padding: 10px;
 }
 
-a {
+a.img-line {
   display: block;
   position: relative;
 }
 
-a:after {
+a.img-line:after {
   content: '';
   position: absolute;
   top: 0;
@@ -217,38 +218,7 @@ a:after {
   opacity: 0;
 }
 
-a:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url();
-  opacity: 0;
-}
-
-a:hover:before, a:hover:after {
-  opacity: 1;
-}
-
-a {
-  display: block;
-  position: relative;
-}
-
-a:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-}
-
-a:before {
+a.img-line:before {
   content: '';
   position: absolute;
   top: 0;
