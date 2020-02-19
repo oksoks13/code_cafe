@@ -19,7 +19,7 @@
   display: -ms-flexbox;
   display: flex;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   padding-right: 30px;
   list-style: none;
 }
@@ -61,9 +61,9 @@ a.menu-nav:hover {
 }
 
 .content-midle .content-article {
-  line-height: 28px;
   color: #ffffff;
   font-family: "Open Sans";
+  font-size: 20px;
 }
 
 .push {
@@ -172,16 +172,21 @@ a.menu-nav:hover {
   width: 1300px;
   padding: 3px;
   background-color: #f3f3f3;
+  padding-bottom: 50px;
 }
 
-.text-left {
-  width: 300px;
+.text-left .title-text {
+  width: 400px;
   float: left;
+  font-size: 20px;
+  padding-left: 20px;
 }
 
 .text-right {
-  width: 900px;
+  width: 800px;
   float: right;
+  font-size: 20px;
+  padding-left: 20px;
 }
 
 .center-horizontal {
@@ -201,6 +206,7 @@ a.menu-nav:hover {
 .featured-progect-text {
   font-family: "Open Sans", sans-serif;
   line-height: 20px;
+  font-size: 20px;
 }
 
 .img-conteiner {
@@ -250,16 +256,34 @@ a:hover:before, a:hover:after {
   background: url(../image/bg-submit.jpg);
   width: 1300px;
   height: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .submit-text {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px;
 }
 
 .btn-submit {
   font-family: 'Open Sans', sans-serif;
-  border-radius: 20px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 25px;
+}
+
+button {
+  border-radius: 50px;
+  height: 45px;
+  font-size: 20px;
 }
 /*# sourceMappingURL=index.css.map */
