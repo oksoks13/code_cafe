@@ -51,10 +51,10 @@ a.menu-nav:hover {
 }
 
 .content-midle .content-title {
-  font-family: 'Source Sans Pro', sans-serif;
-  text-transform: uppercase;
+  font-family: 'Source Sans Pro',sans-serif;
   font-size: 1.15em;
   line-height: 1.15em;
+  text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 0px;
   margin-top: 35px;
@@ -91,25 +91,26 @@ a.menu-nav:hover {
 }
 
 .about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #f3f3f3;
   width: 1300px;
   margin-top: 30px;
 }
 
-.about-us .about-us-title {
+.about-us-title {
   width: 220px;
   height: 60px;
   text-transform: uppercase;
 }
 
-.about-us .about-us-left {
-  float: left;
+.about-us-left {
   width: 890px;
   padding: 10px;
 }
 
-.about-us .about-us-right {
-  float: right;
+.about-us-right {
   width: 370px;
 }
 
@@ -118,18 +119,10 @@ a.menu-nav:hover {
   width: 150px;
 }
 
-.clear {
-  clear: both;
-}
-
 .btn-read-me {
   border-radius: 13px;
   padding: 5px;
   margin-top: 20px;
-}
-
-.hide {
-  display: none;
 }
 
 .icon {
@@ -175,16 +168,31 @@ a.menu-nav:hover {
   padding-bottom: 50px;
 }
 
-.text-left .title-text {
+.title-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+}
+
+.creative-ideas h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  padding-left: 5px;
+}
+
+.creative-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-left {
   width: 400px;
-  float: left;
   font-size: 20px;
   padding-left: 20px;
 }
 
 .text-right {
   width: 800px;
-  float: right;
   font-size: 20px;
   padding-left: 20px;
 }
@@ -204,7 +212,7 @@ a.menu-nav:hover {
 }
 
 .featured-progect-text {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 20px;
   font-size: 20px;
 }
@@ -218,7 +226,6 @@ a.menu-nav:hover {
   align-items: flex-end;
   justify-self: space-beetwen;
   width: 1300px;
-  padding: 10px;
 }
 
 a.img-line {
@@ -270,7 +277,6 @@ a:hover:before, a:hover:after {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 40px;
 }
 
 .btn-submit {
