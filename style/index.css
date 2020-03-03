@@ -215,6 +215,7 @@ a.menu-nav:hover {
   font-family: 'Open Sans', sans-serif;
   line-height: 20px;
   font-size: 20px;
+  padding-bottom: 10px;
 }
 
 .img-conteiner {
@@ -277,6 +278,7 @@ a:hover:before, a:hover:after {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 40px;
 }
 
 .btn-submit {
