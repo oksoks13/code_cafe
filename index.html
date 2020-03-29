@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body id="body">
     <div class="content-up">
         <div class="top-page">
             <div class="logo">
@@ -50,7 +50,7 @@
         </div>
     </div>
 
-    <section class="about-us center-horizontal">
+    <section class="about-us">
         <div class="about-us-left">
             <div class="about-us-title title-text">
                 <h1>this is bouncy</h1>
@@ -93,7 +93,8 @@
             <h1>Creative ideas </h1>
             <div class="creative-text">
                 <div class="text-left">
-                    At <span class="colortext"> vero </span> seos et accusamus et iusto odio dignissimos <b>ducimus</b>
+                    At <span class="colortext"> vero </span> seos et accusamus et iusto odio dignissimos
+                    <b>ducimus</b>
                     qui
                     blanditiis praesentium voluptatum
                     deleniti atque corrupti quos dolores
@@ -107,9 +108,8 @@
                 </div>
             </div>
         </div>
-        </div>
+
     </section>
-    </div>
 
     <section class="featured-progect center-horizontal">
         <div class="featured-progect-title">
@@ -137,16 +137,62 @@
         </div>
     </div>
 
-    <section class="our-servises center-horizontal">
+    <section class="our-servises-top">
         <div class="our-servises-title">
             <h1>
                 Our servises
             </h1>
         </div>
-        <div class="our-servises-text">
+        <div class="our-servises-subtitle">
             At vero eos et accusamus et iusto odio dignissimos ducimus qui<br></b> blanditiis praesentium
         </div>
     </section>
+    <section class="our-servises">
+        <div class="icons-our-services">
+            <div class="icon">
+                <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="icon">
+                <i class="fa fa-external-link fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="icon">
+                <i class="fa fa-gamepad fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="icon">
+                <i class="fa fa-usb fa-2x" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="text-our-servises">
+            <div class=subtitle>Graphic Design</div>
+            <div class=text1>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                praesentium voluptatum deleniti</div><br>
+            <div class=text2>quos dolores et quas molestias excepturi sint
+                occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
+                animi, id
+                est laborum et dolorum fuga</div>
+        </div>
+        <!--Progressbar-->
+        <!--<h1 class="p-3">Canvas circular progressbar with easing-animation</h1>-->
+        <div class="wrapper">
+            <div class="circles">
+                <div class="circle-01">
+                    <div class="counter" data-cp-percentage="80" data-cp-color="#47c8ad">
+                    </div>
+                    <h4>Branding</h4>
+                </div>
+                <div class="circle-02">
+                    <div class="counter" data-cp-percentage="75" data-cp-color="#47c8ad"></div>
+                    <h4>Web Design</h4>
+                </div>
+                <div class="circle-03">
+                    <div class="counter" data-cp-percentage="35" data-cp-color="#47c8ad"></div>
+                    <h4>UI/UX</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <div id="myBtnContainer">
         <button class="btn active" onclick="filterSelection('all works')"> All Works</button>
         <button class="btn" onclick="filterSelection('print')"> Print</button>
@@ -161,6 +207,7 @@
         <div class="filterDiv identify"> Book Printing</div>
         <div class="filterDiv print">Art book</div>
         <div class="filterDiv branding">Tools</div>
+    </div>
     </div>
 
     <script src="main.js"></script>
