@@ -1,6 +1,11 @@
-
+/*центрування*/
 .center-horizontal {
   margin: 0 auto;
+}
+/*стиль заголовків*/
+.title-text {
+  font-family:'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
 }
 
 .content-up {
@@ -11,17 +16,11 @@
 }
 
 .top-page {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .top-page .menu ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
@@ -54,8 +53,7 @@ a.menu-nav:hover {
   padding-top: 290px;
   padding-bottom: 105px;
 }
-.content-midle .content-title {
-  font-family: 'Source Sans Pro',sans-serif;
+.content-midle .title-text  {
   font-size: 1.15em;
   line-height: 1.15em;
   text-transform: uppercase;
@@ -88,12 +86,6 @@ a.menu-nav:hover {
   padding-bottom:20px;
 }
 
-
-.title-text {
-  font-family:'Source Sans Pro', sans-serif;
-  text-transform: uppercase;
-}
-
 .about-us {
   display: flex;
   background-color: #f3f3f3;
@@ -108,8 +100,7 @@ a.menu-nav:hover {
 }
 
  .about-us-left {
- 
-  width: 890px;
+   width: 890px;
   padding: 10px;
 }
 
@@ -124,11 +115,11 @@ a.menu-nav:hover {
 }
 
 
-.btn-read-me {
+/*.button {
   border-radius: 13px;
   padding: 5px;
   margin-top: 20px;
-}
+}*/
 
 
 .icon {
