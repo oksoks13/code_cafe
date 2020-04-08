@@ -3,7 +3,7 @@
   }
 
   .content-up {
-    background: url(../image/bg.jpg);
+    background: url(../image/Layer\ 1.jpg);
     margin: 0 auto;
     width: 1300px;
     height: 750px;
@@ -324,7 +324,6 @@
 
   .text-our-services {
     width: 1000px;
-    padding-right: 30px;
     color: #333b46;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
