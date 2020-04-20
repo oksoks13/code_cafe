@@ -572,7 +572,7 @@ ul li {
   display: inline-block;
 }
 
-.fa {
+.data-img .fa {
   padding: 20px;
   font-size: 30px;
   width: 5px;
@@ -612,7 +612,7 @@ ul li {
   color: #81868e;
   font-size: 30px;
 }
-.data {
+.flex-data {
   display: flex;
   justify-content: space-between;
 }
@@ -643,6 +643,21 @@ ul li {
 .user-interface {
   width: 75%;
   background-color: #19bd9a;
+}
+.circle-bar {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.circle-team {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.circle-team:hover {
+  background: #19bd9a;
 }
 
 /*# sourceMappingURL=index.css.map */
