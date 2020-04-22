@@ -688,22 +688,31 @@ ul li {
 .testimonials-content {
   width: 1100px;
   margin: 0 auto;
-  height: 200px;
-  padding-top: 100px;
-  margin-bottom: 50px;
+  height: 300px;
   background-color: white;
 }
-img {
-  margin-left: 150px;
+.img-testimonials {
+  margin: 60px 70px 0;
+}
+
+.block-with-img {
+  display: flex;
 }
 .text-about-img {
-  float: right;
-  margin-top: -150px;
-  width: 500px;
-  margin-right: 40px;
+  width: 1000px;
+  padding: 50px 30px 50px 0;
+  line-height: 25px;
 }
 .testimonials-content .circle-bar {
-  padding-top: 30px;
+  text-align: center;
+}
+.partho-testimonials {
+  text-transform: uppercase;
+  color: #19bd9a;
+  text-align: left;
+}
+.partho-position {
+  color: black;
 }
 
 /*# sourceMappingURL=index.css.map */
