@@ -721,7 +721,7 @@ ul li {
   background: url(../image/Layer442.jpg);
   color: white;
   height: 700px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .news-top {
@@ -738,6 +738,7 @@ ul li {
 }
 .news-title {
   font-size: 40px;
+  color: #ffffff;
 }
 .news-content .circle-bar {
   display: flex;
@@ -751,8 +752,82 @@ ul li {
   padding-right: 200px;
   padding-left: 300px;
 }
-.news-title {
-  color: #ffffff;
+
+.cards-border {
+  width: 300px;
+  height: 350px;
+}
+.cards-first-last-title {
+  background: #19bd9a;
+  height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 30px;
+  letter-spacing: 5px;
+}
+
+.price {
+  text-align: center;
+  color: #19bd9a;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.period {
+  text-align: center;
+  color: #81868e;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.lets-start-text {
+  color: #81868e;
+  padding: 45px 40px 100px 60px;
+}
+.lets-start-bottom {
+  background: #19bd9a;
+  height: 50px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+.our-price-cards {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+.cards-first-last {
+  background: white;
+}
+.lets-start {
+  background: white;
+}
+.our-price-top {
+  text-align: center;
+}
+
+.our-price-subtitle {
+  color: #81868e;
+  padding-bottom: 50px;
+}
+.subscribe-us {
+  background: url(../image/Layer446.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.subscribe-us-title {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+.subscribe-us-subtitle {
+  text-align: center;
+  color: #81868e;
 }
 /*# sourceMappingURL=index.css.map */
 
