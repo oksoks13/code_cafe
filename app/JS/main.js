@@ -127,3 +127,5 @@ function scrollToEnd() {
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelector(".icon-button").addEventListener("click", scrollToEnd);
 });
+
+function hideMap() {}
