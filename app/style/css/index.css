@@ -69,22 +69,21 @@ a.menu-nav:hover {
 }
 
 .push {
-  margin-top: 40px;
-  margin-bottom: 15px;
+  display: flex;
 }
 
-.push .btn {
-  padding: 10px;
+.push .push-button {
   margin: 0 auto;
   background: #19bd9a;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 }
 
-.push .icon-button {
-  text-align: center;
-  padding-bottom: 20px;
+.icon-button {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
 }
 
 .about-us {
@@ -117,32 +116,29 @@ a.menu-nav:hover {
   margin-bottom: 15px;
 }
 
-.icon {
+.icon-details {
   background: grey;
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  display: inline-block;
-  padding: 10px;
-  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
   color: white;
-  text-align: center;
+  margin: 10px
 }
 
-.icons {
-  margin-top: 20px;
+.icons-for-details {
+  display: flex;
+  justify-content: center;
 }
 
-.icons :hover {
+.icons-for-details :hover {
   background: #81868e;
 }
 
-.icons :hover {
+.icons-for-details :hover {
   background: #19bd9a;
-}
-
-.fa {
-  padding-top: 10px;
 }
 
 .top {
@@ -302,13 +298,18 @@ h1 {
 .icons-our-services {
   display: flex;
   flex-direction: column;
-  margin: 10px;
   color: white;
-  text-align: center;
 }
 
-.icon {
+.icon-service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 10px;
+  background-color: #81868e;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
 }
 
 .icons-our-services:hover {
@@ -621,7 +622,7 @@ ul li {
   justify-content: space-between;
 }
 
-.progress-bar {
+.team-prg-bar {
   margin: 50px;
 }
 
@@ -655,22 +656,21 @@ ul li {
   background-color: #19bd9a;
 }
 
-.circle-bar {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.circle {
+.carousel-indicators li.circle-indicator {
   height: 15px;
   width: 15px;
-  background-color: #bbb;
+  background-color: #19bd9a;
   border-radius: 50%;
-  display: inline-block;
+  margin-top: 15px;
 }
 
-.circle:hover {
-  background: #19bd9a;
+.flex-data {
+  padding-bottom: 20px;
 }
+
+/*.circle:hover {
+  background: #19bd9a;
+}*/
 
 .container-contact-us {
   background: url(../image/Layer1042.jpg);
@@ -765,13 +765,18 @@ ul li {
   color: #ffffff;
 }
 
-.news-content .circle-bar {
+.news-circle-bar {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.news-content .news-circle-ba {
   display: flex;
   align-self: center;
   flex-direction: column;
 }
 
-.news-content .circle {
+.news-content .circle-indicator {
   margin: 5px;
 }
 
@@ -1086,8 +1091,6 @@ form {
 .btn-footer:hover {
   background-color: #6e92dc;
 }
-
-.footer-icons .fa {}
 
 /*sourceMappingURL=index.css.map
 /*a.button31 {

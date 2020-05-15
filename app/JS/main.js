@@ -114,10 +114,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   circleProgress(".counter");
 
-  // Gibt eine Zufallszahl zwischen min (inklusive) und max (exklusive) zurück
-  function getRandom(min, max) {
-    return Math.random() * (max - min) + min;
-  }
+  return Math.random() * (max - min) + min;
 });
 
 function scrollToEnd() {
@@ -127,5 +124,3 @@ function scrollToEnd() {
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelector(".icon-button").addEventListener("click", scrollToEnd);
 });
-
-function hideMap() {}
