@@ -14,6 +14,7 @@ BODY {
 .content-up {
   background: url(../image/Layer1.jpg);
   height: 750px;
+  background-repeat: no-repeat;
 }
 
 .top-page {
@@ -42,10 +43,15 @@ BODY {
   color: white;
 }
 
-a.menu-nav:hover {
+a.menu-nav {
+  padding: 5px;
   border: solid 3px;
   border-radius: 15px;
-  padding: 5px;
+  border-color: transparent;
+}
+
+a.menu-nav:hover {
+  border-color: white;
 }
 
 .logo {
@@ -337,7 +343,6 @@ h1 {
   align-items: center;
   font-size: calc(1em + 1vmin);
   transition: height 0.1s ease-in-out;
-  background: #fff;
   margin: 1em 0;
 }
 
@@ -770,7 +775,7 @@ ul li {
   margin-bottom: 50px;
 }
 
-.news-content .news-circle-ba {
+.news-content .news-circle-bar {
   display: flex;
   align-self: center;
   flex-direction: column;

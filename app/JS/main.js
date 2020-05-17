@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
         wrapper.style.height = canvas.style.width = canvas.style.height =
           wrapperWidth + "px";
         context = canvas.getContext("2d");
+        context.fillStyle = "#ff0000";
         centerX = canvas.width / 2;
         centerY = canvas.height / 2;
         newPercent = 0;
@@ -66,6 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
         var circleStart = 1.5 * Math.PI;
         var circleEnd = circleStart + (newPercent / 50) * Math.PI;
         context.clearRect(0, 0, canvas.width, canvas.height);
+
         context.beginPath();
         context.arc(centerX, centerY, radius, circleStart, 4 * Math.PI, false);
         context.lineWidth = lineWidth;
@@ -114,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   circleProgress(".counter");
 
-  return Math.random() * (max - min) + min;
+  return Math.random();
 });
 
 function scrollToEnd() {
